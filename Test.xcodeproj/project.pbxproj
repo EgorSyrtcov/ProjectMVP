@@ -22,7 +22,6 @@
 		2E79878223EEF8A8005A12C2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E79878123EEF8A8005A12C2 /* FirstViewController.swift */; };
 		2E79878423EEF915005A12C2 /* FirstViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E79878323EEF915005A12C2 /* FirstViewController.storyboard */; };
 		2E79878623EEFADC005A12C2 /* FirstAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E79878523EEFADC005A12C2 /* FirstAssembly.swift */; };
-		2E79878823EF0052005A12C2 /* FirstInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E79878723EF0052005A12C2 /* FirstInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +42,6 @@
 		2E79878123EEF8A8005A12C2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		2E79878323EEF915005A12C2 /* FirstViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstViewController.storyboard; sourceTree = "<group>"; };
 		2E79878523EEFADC005A12C2 /* FirstAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAssembly.swift; sourceTree = "<group>"; };
-		2E79878723EF0052005A12C2 /* FirstInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,20 +223,11 @@
 			isa = PBXGroup;
 			children = (
 				2E0C94FA23F0104C00CE0412 /* Presenter */,
-				2E79877D23EEF83A005A12C2 /* Interactor */,
 				2E79877E23EEF84C005A12C2 /* Storyboard */,
 				2E79877F23EEF85D005A12C2 /* Assembly */,
 				2E79878023EEF86A005A12C2 /* View */,
 			);
 			path = First;
-			sourceTree = "<group>";
-		};
-		2E79877D23EEF83A005A12C2 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				2E79878723EF0052005A12C2 /* FirstInteractor.swift */,
-			);
-			path = Interactor;
 			sourceTree = "<group>";
 		};
 		2E79877E23EEF84C005A12C2 /* Storyboard */ = {
@@ -341,7 +330,6 @@
 				2E0C94F923F00F6800CE0412 /* SecondAssembly.swift in Sources */,
 				2E79878623EEFADC005A12C2 /* FirstAssembly.swift in Sources */,
 				2E79878223EEF8A8005A12C2 /* FirstViewController.swift in Sources */,
-				2E79878823EF0052005A12C2 /* FirstInteractor.swift in Sources */,
 				2E5142A223E9CD6100D1DB0C /* NibInitializable.swift in Sources */,
 				2E51429A23E9CC0900D1DB0C /* StoryboardInitializable.swift in Sources */,
 				2E361A7823C1EDB800FCCC61 /* AppDelegate.swift in Sources */,

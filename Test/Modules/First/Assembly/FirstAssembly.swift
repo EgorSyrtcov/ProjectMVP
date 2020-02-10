@@ -15,10 +15,7 @@ class FirstAssembly {
         let storyBoard = UIStoryboard(name: "FirstViewController", bundle: nil)
         let viewController = storyBoard.instantiateViewController(withIdentifier: "FirstViewController") as! FirstViewController
         let navigationController = UINavigationController(rootViewController: viewController)
-        let presenter = FirstPresenter(viewController: navigationController)
-        viewController.interactor = FirstInteractor(presenter: presenter)
-        //let viewController = FirstViewController.initFromStoryboard()
-       
+        viewController.presenter = FirstPresenter(viewController: navigationController)
         
         return navigationController
     }

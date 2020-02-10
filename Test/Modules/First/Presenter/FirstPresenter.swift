@@ -12,14 +12,17 @@ class FirstPresenter {
     
     private weak var viewController: UINavigationController?
     
-    
     init(viewController: UINavigationController) {
         self.viewController = viewController
     }
     
+    func pullName() {
+        print("Hello Egor")
+    }
+    
     func presentSecondVC() {
         viewController?.pushViewController(SecondAssembly.createModule(), animated: true)
-        //viewController?.present(SecondAssembly.createModule(), animated: true, completion: nil)
+        print(1234)
     }
     
 }

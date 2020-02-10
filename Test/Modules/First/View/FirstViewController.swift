@@ -10,21 +10,14 @@ import UIKit
 
 class FirstViewController: UIViewController {
     
-    var interactor: FirstInteractor!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
+    var presenter: FirstPresenter!
     
     
     @IBAction func pullNameButton(_ sender: UIButton) {
-        interactor.pullName()
+         presenter.pullName()
     }
-    
     
     @IBAction func nextVCButton(_ sender: UIButton) {
-        interactor.presentSecondVC()
+        presenter.presentSecondVC()
     }
-    
 }
