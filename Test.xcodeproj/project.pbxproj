@@ -7,31 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E0C94F323F00DF800CE0412 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C94F223F00DF800CE0412 /* SecondViewController.swift */; };
-		2E0C94F523F00E1200CE0412 /* SecondViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0C94F423F00E1200CE0412 /* SecondViewController.storyboard */; };
-		2E0C94F723F00E6500CE0412 /* SecondInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C94F623F00E6500CE0412 /* SecondInteractor.swift */; };
-		2E0C94F923F00F6800CE0412 /* SecondAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C94F823F00F6800CE0412 /* SecondAssembly.swift */; };
-		2E0C94FC23F0109000CE0412 /* FirstPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C94FB23F0109000CE0412 /* FirstPresenter.swift */; };
+		2E0C94F323F00DF800CE0412 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C94F223F00DF800CE0412 /* CreateViewController.swift */; };
+		2E0C94F523F00E1200CE0412 /* CreateViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0C94F423F00E1200CE0412 /* CreateViewController.storyboard */; };
+		2E0C94F923F00F6800CE0412 /* CreateAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C94F823F00F6800CE0412 /* CreateAssembly.swift */; };
+		2E0C94FC23F0109000CE0412 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C94FB23F0109000CE0412 /* MainPresenter.swift */; };
 		2E0C950223F0758300CE0412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0C950123F0758300CE0412 /* LaunchScreen.storyboard */; };
-		2E0C950723F085D100CE0412 /* SecondPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C950623F085D100CE0412 /* SecondPresenter.swift */; };
+		2E0C950723F085D100CE0412 /* CreatePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C950623F085D100CE0412 /* CreatePresenter.swift */; };
 		2E361A7823C1EDB800FCCC61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E361A7723C1EDB800FCCC61 /* AppDelegate.swift */; };
 		2E361A7F23C1EDB900FCCC61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E361A7E23C1EDB900FCCC61 /* Assets.xcassets */; };
 		2E51429A23E9CC0900D1DB0C /* StoryboardInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E51429923E9CC0900D1DB0C /* StoryboardInitializable.swift */; };
 		2E5142A223E9CD6100D1DB0C /* NibInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5142A123E9CD6100D1DB0C /* NibInitializable.swift */; };
 		2E79877723EEF572005A12C2 /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E79877623EEF572005A12C2 /* UIViewController+Storyboard.swift */; };
-		2E79878223EEF8A8005A12C2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E79878123EEF8A8005A12C2 /* FirstViewController.swift */; };
-		2E79878423EEF915005A12C2 /* FirstViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E79878323EEF915005A12C2 /* FirstViewController.storyboard */; };
-		2E79878623EEFADC005A12C2 /* FirstAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E79878523EEFADC005A12C2 /* FirstAssembly.swift */; };
+		2E79878223EEF8A8005A12C2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E79878123EEF8A8005A12C2 /* MainViewController.swift */; };
+		2E79878423EEF915005A12C2 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E79878323EEF915005A12C2 /* MainViewController.storyboard */; };
+		2E79878623EEFADC005A12C2 /* MainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E79878523EEFADC005A12C2 /* MainAssembly.swift */; };
+		2EE7FC2723F18D0300ECE273 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7FC2623F18D0300ECE273 /* PickerViewController.swift */; };
+		2EE7FC2923F18D2B00ECE273 /* PickerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE7FC2823F18D2B00ECE273 /* PickerViewController.storyboard */; };
+		2EE7FC2B23F18D6800ECE273 /* PickerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7FC2A23F18D6800ECE273 /* PickerAssembly.swift */; };
+		2EE7FC2E23F192CF00ECE273 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7FC2D23F192CF00ECE273 /* Task.swift */; };
+		2EE7FC3023F192F600ECE273 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7FC2F23F192F600ECE273 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E0C94F223F00DF800CE0412 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		2E0C94F423F00E1200CE0412 /* SecondViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondViewController.storyboard; sourceTree = "<group>"; };
-		2E0C94F623F00E6500CE0412 /* SecondInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondInteractor.swift; sourceTree = "<group>"; };
-		2E0C94F823F00F6800CE0412 /* SecondAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAssembly.swift; sourceTree = "<group>"; };
-		2E0C94FB23F0109000CE0412 /* FirstPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPresenter.swift; sourceTree = "<group>"; };
+		2E0C94F223F00DF800CE0412 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		2E0C94F423F00E1200CE0412 /* CreateViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateViewController.storyboard; sourceTree = "<group>"; };
+		2E0C94F823F00F6800CE0412 /* CreateAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAssembly.swift; sourceTree = "<group>"; };
+		2E0C94FB23F0109000CE0412 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		2E0C950123F0758300CE0412 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2E0C950623F085D100CE0412 /* SecondPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPresenter.swift; sourceTree = "<group>"; };
+		2E0C950623F085D100CE0412 /* CreatePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePresenter.swift; sourceTree = "<group>"; };
 		2E361A7423C1EDB800FCCC61 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E361A7723C1EDB800FCCC61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E361A7E23C1EDB900FCCC61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,9 +42,14 @@
 		2E51429923E9CC0900D1DB0C /* StoryboardInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInitializable.swift; sourceTree = "<group>"; };
 		2E5142A123E9CD6100D1DB0C /* NibInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibInitializable.swift; sourceTree = "<group>"; };
 		2E79877623EEF572005A12C2 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
-		2E79878123EEF8A8005A12C2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2E79878323EEF915005A12C2 /* FirstViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstViewController.storyboard; sourceTree = "<group>"; };
-		2E79878523EEFADC005A12C2 /* FirstAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAssembly.swift; sourceTree = "<group>"; };
+		2E79878123EEF8A8005A12C2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2E79878323EEF915005A12C2 /* MainViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
+		2E79878523EEFADC005A12C2 /* MainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembly.swift; sourceTree = "<group>"; };
+		2EE7FC2623F18D0300ECE273 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		2EE7FC2823F18D2B00ECE273 /* PickerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PickerViewController.storyboard; sourceTree = "<group>"; };
+		2EE7FC2A23F18D6800ECE273 /* PickerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerAssembly.swift; sourceTree = "<group>"; };
+		2EE7FC2D23F192CF00ECE273 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		2EE7FC2F23F192F600ECE273 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,30 +63,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E0C94ED23F00D8A00CE0412 /* Second */ = {
+		2E0C94ED23F00D8A00CE0412 /* Create */ = {
 			isa = PBXGroup;
 			children = (
 				2E0C950523F085BA00CE0412 /* Presenter */,
-				2E0C94EE23F00D9E00CE0412 /* Interactor */,
 				2E0C94EF23F00DAD00CE0412 /* Storyboard */,
 				2E0C94F023F00DB900CE0412 /* Assembly */,
 				2E0C94F123F00DC500CE0412 /* View */,
 			);
-			path = Second;
-			sourceTree = "<group>";
-		};
-		2E0C94EE23F00D9E00CE0412 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				2E0C94F623F00E6500CE0412 /* SecondInteractor.swift */,
-			);
-			path = Interactor;
+			path = Create;
 			sourceTree = "<group>";
 		};
 		2E0C94EF23F00DAD00CE0412 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				2E0C94F423F00E1200CE0412 /* SecondViewController.storyboard */,
+				2E0C94F423F00E1200CE0412 /* CreateViewController.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -86,7 +85,7 @@
 		2E0C94F023F00DB900CE0412 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				2E0C94F823F00F6800CE0412 /* SecondAssembly.swift */,
+				2E0C94F823F00F6800CE0412 /* CreateAssembly.swift */,
 			);
 			path = Assembly;
 			sourceTree = "<group>";
@@ -94,7 +93,7 @@
 		2E0C94F123F00DC500CE0412 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2E0C94F223F00DF800CE0412 /* SecondViewController.swift */,
+				2E0C94F223F00DF800CE0412 /* CreateViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -102,7 +101,7 @@
 		2E0C94FA23F0104C00CE0412 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				2E0C94FB23F0109000CE0412 /* FirstPresenter.swift */,
+				2E0C94FB23F0109000CE0412 /* MainPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -118,7 +117,7 @@
 		2E0C950523F085BA00CE0412 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				2E0C950623F085D100CE0412 /* SecondPresenter.swift */,
+				2E0C950623F085D100CE0412 /* CreatePresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -172,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				2E79877523EEF549005A12C2 /* UIkit */,
+				2EE7FC2F23F192F600ECE273 /* DataManager.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -212,14 +212,16 @@
 		2E79877B23EEF7E1005A12C2 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				2E79877C23EEF810005A12C2 /* First */,
-				2E0C94ED23F00D8A00CE0412 /* Second */,
+				2EE7FC2C23F192BD00ECE273 /* Model */,
+				2E79877C23EEF810005A12C2 /* Main */,
+				2E0C94ED23F00D8A00CE0412 /* Create */,
+				2EE7FC2223F18CA600ECE273 /* Picker */,
 				2E0C950023F0754700CE0412 /* Splash */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		2E79877C23EEF810005A12C2 /* First */ = {
+		2E79877C23EEF810005A12C2 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				2E0C94FA23F0104C00CE0412 /* Presenter */,
@@ -227,13 +229,13 @@
 				2E79877F23EEF85D005A12C2 /* Assembly */,
 				2E79878023EEF86A005A12C2 /* View */,
 			);
-			path = First;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		2E79877E23EEF84C005A12C2 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				2E79878323EEF915005A12C2 /* FirstViewController.storyboard */,
+				2E79878323EEF915005A12C2 /* MainViewController.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -241,7 +243,7 @@
 		2E79877F23EEF85D005A12C2 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				2E79878523EEFADC005A12C2 /* FirstAssembly.swift */,
+				2E79878523EEFADC005A12C2 /* MainAssembly.swift */,
 			);
 			path = Assembly;
 			sourceTree = "<group>";
@@ -249,9 +251,51 @@
 		2E79878023EEF86A005A12C2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2E79878123EEF8A8005A12C2 /* FirstViewController.swift */,
+				2E79878123EEF8A8005A12C2 /* MainViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		2EE7FC2223F18CA600ECE273 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				2EE7FC2523F18CDB00ECE273 /* Storyboard */,
+				2EE7FC2423F18CD200ECE273 /* Assembly */,
+				2EE7FC2323F18CC800ECE273 /* View */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		2EE7FC2323F18CC800ECE273 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EE7FC2623F18D0300ECE273 /* PickerViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2EE7FC2423F18CD200ECE273 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				2EE7FC2A23F18D6800ECE273 /* PickerAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		2EE7FC2523F18CDB00ECE273 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2EE7FC2823F18D2B00ECE273 /* PickerViewController.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2EE7FC2C23F192BD00ECE273 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2EE7FC2D23F192CF00ECE273 /* Task.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,9 +356,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E79878423EEF915005A12C2 /* FirstViewController.storyboard in Resources */,
+				2E79878423EEF915005A12C2 /* MainViewController.storyboard in Resources */,
 				2E0C950223F0758300CE0412 /* LaunchScreen.storyboard in Resources */,
-				2E0C94F523F00E1200CE0412 /* SecondViewController.storyboard in Resources */,
+				2E0C94F523F00E1200CE0412 /* CreateViewController.storyboard in Resources */,
+				2EE7FC2923F18D2B00ECE273 /* PickerViewController.storyboard in Resources */,
 				2E361A7F23C1EDB900FCCC61 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,17 +371,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E0C94F323F00DF800CE0412 /* SecondViewController.swift in Sources */,
-				2E0C94F923F00F6800CE0412 /* SecondAssembly.swift in Sources */,
-				2E79878623EEFADC005A12C2 /* FirstAssembly.swift in Sources */,
-				2E79878223EEF8A8005A12C2 /* FirstViewController.swift in Sources */,
+				2E0C94F323F00DF800CE0412 /* CreateViewController.swift in Sources */,
+				2EE7FC3023F192F600ECE273 /* DataManager.swift in Sources */,
+				2E0C94F923F00F6800CE0412 /* CreateAssembly.swift in Sources */,
+				2E79878623EEFADC005A12C2 /* MainAssembly.swift in Sources */,
+				2EE7FC2723F18D0300ECE273 /* PickerViewController.swift in Sources */,
+				2E79878223EEF8A8005A12C2 /* MainViewController.swift in Sources */,
 				2E5142A223E9CD6100D1DB0C /* NibInitializable.swift in Sources */,
 				2E51429A23E9CC0900D1DB0C /* StoryboardInitializable.swift in Sources */,
 				2E361A7823C1EDB800FCCC61 /* AppDelegate.swift in Sources */,
-				2E0C950723F085D100CE0412 /* SecondPresenter.swift in Sources */,
+				2EE7FC2B23F18D6800ECE273 /* PickerAssembly.swift in Sources */,
+				2E0C950723F085D100CE0412 /* CreatePresenter.swift in Sources */,
 				2E79877723EEF572005A12C2 /* UIViewController+Storyboard.swift in Sources */,
-				2E0C94FC23F0109000CE0412 /* FirstPresenter.swift in Sources */,
-				2E0C94F723F00E6500CE0412 /* SecondInteractor.swift in Sources */,
+				2E0C94FC23F0109000CE0412 /* MainPresenter.swift in Sources */,
+				2EE7FC2E23F192CF00ECE273 /* Task.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

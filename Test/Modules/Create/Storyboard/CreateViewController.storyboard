@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ncg-YP-EMY">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Second ViewController-->
+        <scene sceneID="RcA-Mb-zhh">
+            <objects>
+                <viewController storyboardIdentifier="CreateViewController" id="QAi-pQ-1de" customClass="CreateViewController" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YvV-gw-vgr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kC7-aa-1sx">
+                                <rect key="frame" x="40" y="108" width="334" height="205"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="205" id="Xra-tj-2a2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Checklist" translatesAutoresizingMaskIntoConstraints="NO" id="dvP-49-WyG">
+                                <rect key="frame" x="40" y="333" width="113" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="122" id="Laj-8F-t8h"/>
+                                    <constraint firstAttribute="width" constant="113" id="Tc2-wS-xSq"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7N7-tI-RRW">
+                                <rect key="frame" x="59" y="524" width="296" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="WxC-Jv-7B1"/>
+                                    <constraint firstAttribute="width" constant="296" id="vVM-gW-Xef"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="35"/>
+                                <state key="normal" title="SAVE">
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveButton:" destination="QAi-pQ-1de" eventType="touchUpInside" id="i4m-Ra-YqD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="3yz-Dp-sgU">
+                                <rect key="frame" x="221" y="379" width="61" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <size key="titleShadowOffset" width="2" height="0.0"/>
+                                <state key="normal" title="Icon">
+                                    <color key="titleShadowColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectionIconButton:" destination="QAi-pQ-1de" eventType="touchUpInside" id="Crt-b4-xmg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.91188751710000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7N7-tI-RRW" firstAttribute="top" secondItem="dvP-49-WyG" secondAttribute="bottom" constant="69" id="2K0-pe-kKD"/>
+                            <constraint firstItem="kC7-aa-1sx" firstAttribute="top" secondItem="1SE-gG-uyf" secondAttribute="top" constant="20" id="7dr-ut-OHa"/>
+                            <constraint firstItem="7N7-tI-RRW" firstAttribute="top" secondItem="kC7-aa-1sx" secondAttribute="bottom" constant="211" id="8Xl-j2-ms2"/>
+                            <constraint firstItem="kC7-aa-1sx" firstAttribute="centerX" secondItem="YvV-gw-vgr" secondAttribute="centerX" id="Ahf-g4-Bi3"/>
+                            <constraint firstItem="3yz-Dp-sgU" firstAttribute="leading" secondItem="dvP-49-WyG" secondAttribute="trailing" constant="68" id="C2q-1a-2FN"/>
+                            <constraint firstItem="dvP-49-WyG" firstAttribute="top" secondItem="kC7-aa-1sx" secondAttribute="bottom" constant="20" id="DIE-bS-Mfv"/>
+                            <constraint firstItem="kC7-aa-1sx" firstAttribute="leading" secondItem="1SE-gG-uyf" secondAttribute="leading" constant="40" id="M87-i6-BFj"/>
+                            <constraint firstItem="3yz-Dp-sgU" firstAttribute="top" secondItem="kC7-aa-1sx" secondAttribute="bottom" constant="66" id="PcQ-9y-WyK"/>
+                            <constraint firstItem="7N7-tI-RRW" firstAttribute="centerX" secondItem="kC7-aa-1sx" secondAttribute="centerX" id="blP-Je-KbG"/>
+                            <constraint firstItem="dvP-49-WyG" firstAttribute="leading" secondItem="kC7-aa-1sx" secondAttribute="leading" id="ud8-Wa-yAD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1SE-gG-uyf"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Second ViewController" id="i9n-Sf-mQL"/>
+                    <connections>
+                        <outlet property="iconImageView" destination="dvP-49-WyG" id="6xs-I3-Ydj"/>
+                        <outlet property="nameTaskTextView" destination="kC7-aa-1sx" id="hrs-4m-SGt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rr2-0K-M1i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="960.86956521739137" y="57.589285714285708"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2mD-cU-hKv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ncg-YP-EMY" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="h5S-lc-md7">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QAi-pQ-1de" kind="relationship" relationship="rootViewController" id="1U9-ts-6l9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xzk-wP-39h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="57.589285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Checklist" width="64" height="64"/>
+    </resources>
+</document>

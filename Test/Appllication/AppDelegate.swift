@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func startShow() {
         window = UIWindow(frame: UIScreen.main.bounds)
         
-        window?.rootViewController = FirstAssembly.createModule()
+        window?.rootViewController = MainAssembly.createModule()
         window?.makeKeyAndVisible()
     }
 }
