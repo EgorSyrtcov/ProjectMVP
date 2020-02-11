@@ -8,12 +8,10 @@
 
 import UIKit
 
-typealias block = ((_ task: Task?) -> Void)
-
 class PickerViewController: UIViewController {
     
     let tasksModel = DataManager.createIcon()
-    var complition: (block)?
+    weak var delegate: CreateViewControllerDelegate?
 
     @IBOutlet weak var tableView: UITableView!
 }
@@ -34,7 +32,7 @@ extension PickerViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let task = tasksModel[indexPath.row]
-        complition?(task)
+        delegate?.getData(with: task)
         navigationController?.popViewController(animated: true)
     }
 }

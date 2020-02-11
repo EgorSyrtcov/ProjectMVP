@@ -10,14 +10,14 @@ import UIKit
 
 class CreatePresenter {
     
-    private weak var viewController: UIViewController?
+    private weak var viewController: CreateViewController?
     
-    init(viewController: UIViewController) {
+    init(viewController: CreateViewController) {
         self.viewController = viewController
     }
     
     func presentNextVC() {
-        viewController?.navigationController?.pushViewController(PickerAssembly.createModule(), animated: true)
+        viewController?.navigationController?.pushViewController(PickerAssembly.createModule(delegate: self.viewController), animated: true)
     }
 }
 

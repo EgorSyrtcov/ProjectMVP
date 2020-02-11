@@ -10,11 +10,11 @@ import UIKit
 
 class PickerAssembly {
     
-    class func createModule() -> PickerViewController {
+    class func createModule(delegate: CreateViewControllerDelegate?) -> PickerViewController {
         
         let storyBoard = UIStoryboard(name: "PickerViewController", bundle: nil)
         let viewController = storyBoard.instantiateViewController(withIdentifier: "PickerViewController") as! PickerViewController
-        
+        viewController.delegate = delegate
         return viewController
     }
 }

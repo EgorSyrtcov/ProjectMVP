@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol CreateViewControllerDelegate: class {
+    func getData(with task: Task)
+}
+
 class CreateViewController: UIViewController {
     
     var task: Task?
@@ -28,5 +32,11 @@ class CreateViewController: UIViewController {
     
     @IBAction func saveButton(_ sender: UIButton) {
         
+    }
+}
+
+extension CreateViewController: CreateViewControllerDelegate {
+    func getData(with task: Task) {
+        print(task)
     }
 }
