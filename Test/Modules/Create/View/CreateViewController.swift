@@ -10,7 +10,6 @@ import UIKit
 
 class CreateViewController: UIViewController {
     
-    var task: Task?
     var presenter: CreatePresenter!
 
     @IBOutlet weak var nameTaskTextView: UITextView!
@@ -19,6 +18,8 @@ class CreateViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        presenter.viewDidLoad()
+        
     }
 
     @IBAction func selectionIconButton(_ sender: UIButton) {
@@ -27,6 +28,6 @@ class CreateViewController: UIViewController {
     }
     
     @IBAction func saveButton(_ sender: UIButton) {
-        
+        presenter.createTask()
     }
 }

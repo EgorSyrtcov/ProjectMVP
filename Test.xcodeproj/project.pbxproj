@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2E0C94F323F00DF800CE0412 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C94F223F00DF800CE0412 /* CreateViewController.swift */; };
 		2E0C94F523F00E1200CE0412 /* CreateViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0C94F423F00E1200CE0412 /* CreateViewController.storyboard */; };
-		2E0C94F923F00F6800CE0412 /* CreateAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C94F823F00F6800CE0412 /* CreateAssembly.swift */; };
 		2E0C94FC23F0109000CE0412 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C94FB23F0109000CE0412 /* MainPresenter.swift */; };
 		2E0C950223F0758300CE0412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0C950123F0758300CE0412 /* LaunchScreen.storyboard */; };
 		2E0C950723F085D100CE0412 /* CreatePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C950623F085D100CE0412 /* CreatePresenter.swift */; };
@@ -20,18 +19,18 @@
 		2E79877723EEF572005A12C2 /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E79877623EEF572005A12C2 /* UIViewController+Storyboard.swift */; };
 		2E79878223EEF8A8005A12C2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E79878123EEF8A8005A12C2 /* MainViewController.swift */; };
 		2E79878423EEF915005A12C2 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E79878323EEF915005A12C2 /* MainViewController.storyboard */; };
-		2E79878623EEFADC005A12C2 /* MainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E79878523EEFADC005A12C2 /* MainAssembly.swift */; };
 		2EE7FC2723F18D0300ECE273 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7FC2623F18D0300ECE273 /* PickerViewController.swift */; };
 		2EE7FC2923F18D2B00ECE273 /* PickerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE7FC2823F18D2B00ECE273 /* PickerViewController.storyboard */; };
 		2EE7FC2B23F18D6800ECE273 /* PickerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7FC2A23F18D6800ECE273 /* PickerAssembly.swift */; };
 		2EE7FC2E23F192CF00ECE273 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7FC2D23F192CF00ECE273 /* Task.swift */; };
 		2EE7FC3023F192F600ECE273 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7FC2F23F192F600ECE273 /* DataManager.swift */; };
+		7C55D9C623F299D300294243 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C55D9C523F299D300294243 /* SplashScreen.storyboard */; };
+		7C55D9C823F299E400294243 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C55D9C723F299E400294243 /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E0C94F223F00DF800CE0412 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		2E0C94F423F00E1200CE0412 /* CreateViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateViewController.storyboard; sourceTree = "<group>"; };
-		2E0C94F823F00F6800CE0412 /* CreateAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAssembly.swift; sourceTree = "<group>"; };
 		2E0C94FB23F0109000CE0412 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		2E0C950123F0758300CE0412 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E0C950623F085D100CE0412 /* CreatePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePresenter.swift; sourceTree = "<group>"; };
@@ -44,12 +43,13 @@
 		2E79877623EEF572005A12C2 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
 		2E79878123EEF8A8005A12C2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2E79878323EEF915005A12C2 /* MainViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
-		2E79878523EEFADC005A12C2 /* MainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembly.swift; sourceTree = "<group>"; };
 		2EE7FC2623F18D0300ECE273 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		2EE7FC2823F18D2B00ECE273 /* PickerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PickerViewController.storyboard; sourceTree = "<group>"; };
 		2EE7FC2A23F18D6800ECE273 /* PickerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerAssembly.swift; sourceTree = "<group>"; };
 		2EE7FC2D23F192CF00ECE273 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		2EE7FC2F23F192F600ECE273 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		7C55D9C523F299D300294243 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		7C55D9C723F299E400294243 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				2E0C950523F085BA00CE0412 /* Presenter */,
-				2E0C94EF23F00DAD00CE0412 /* Storyboard */,
-				2E0C94F023F00DB900CE0412 /* Assembly */,
 				2E0C94F123F00DC500CE0412 /* View */,
 			);
 			path = Create;
@@ -82,17 +80,10 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		2E0C94F023F00DB900CE0412 /* Assembly */ = {
-			isa = PBXGroup;
-			children = (
-				2E0C94F823F00F6800CE0412 /* CreateAssembly.swift */,
-			);
-			path = Assembly;
-			sourceTree = "<group>";
-		};
 		2E0C94F123F00DC500CE0412 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2E0C94EF23F00DAD00CE0412 /* Storyboard */,
 				2E0C94F223F00DF800CE0412 /* CreateViewController.swift */,
 			);
 			path = View;
@@ -110,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				2E0C950123F0758300CE0412 /* LaunchScreen.storyboard */,
+				7C55D9C523F299D300294243 /* SplashScreen.storyboard */,
+				7C55D9C723F299E400294243 /* SplashScreen.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -225,8 +218,6 @@
 			isa = PBXGroup;
 			children = (
 				2E0C94FA23F0104C00CE0412 /* Presenter */,
-				2E79877E23EEF84C005A12C2 /* Storyboard */,
-				2E79877F23EEF85D005A12C2 /* Assembly */,
 				2E79878023EEF86A005A12C2 /* View */,
 			);
 			path = Main;
@@ -240,17 +231,10 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		2E79877F23EEF85D005A12C2 /* Assembly */ = {
-			isa = PBXGroup;
-			children = (
-				2E79878523EEFADC005A12C2 /* MainAssembly.swift */,
-			);
-			path = Assembly;
-			sourceTree = "<group>";
-		};
 		2E79878023EEF86A005A12C2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2E79877E23EEF84C005A12C2 /* Storyboard */,
 				2E79878123EEF8A8005A12C2 /* MainViewController.swift */,
 			);
 			path = View;
@@ -357,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E79878423EEF915005A12C2 /* MainViewController.storyboard in Resources */,
+				7C55D9C623F299D300294243 /* SplashScreen.storyboard in Resources */,
 				2E0C950223F0758300CE0412 /* LaunchScreen.storyboard in Resources */,
 				2E0C94F523F00E1200CE0412 /* CreateViewController.storyboard in Resources */,
 				2EE7FC2923F18D2B00ECE273 /* PickerViewController.storyboard in Resources */,
@@ -371,10 +356,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C55D9C823F299E400294243 /* SplashScreen.swift in Sources */,
 				2E0C94F323F00DF800CE0412 /* CreateViewController.swift in Sources */,
 				2EE7FC3023F192F600ECE273 /* DataManager.swift in Sources */,
-				2E0C94F923F00F6800CE0412 /* CreateAssembly.swift in Sources */,
-				2E79878623EEFADC005A12C2 /* MainAssembly.swift in Sources */,
 				2EE7FC2723F18D0300ECE273 /* PickerViewController.swift in Sources */,
 				2E79878223EEF8A8005A12C2 /* MainViewController.swift in Sources */,
 				2E5142A223E9CD6100D1DB0C /* NibInitializable.swift in Sources */,

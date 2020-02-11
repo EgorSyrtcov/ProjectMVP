@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yrS-v9-HI7">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="lvi-rv-e3c">
+            <objects>
+                <navigationController id="yrS-v9-HI7" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="laf-aa-1eD">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="TLd-Yh-ECF" kind="relationship" relationship="rootViewController" id="aqv-ny-c3e"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IXu-lN-e20" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1078" y="267"/>
+        </scene>
+        <!--Splash Screen-->
+        <scene sceneID="qEv-1Z-Joq">
+            <objects>
+                <viewController id="TLd-Yh-ECF" customClass="SplashScreen" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dwf-JL-yb4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="ux1-bx-Oty">
+                                <rect key="frame" x="186" y="427" width="42" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="gdc-I4-xnZ"/>
+                                    <constraint firstAttribute="height" constant="42" id="zf8-QF-5He"/>
+                                </constraints>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ux1-bx-Oty" firstAttribute="centerX" secondItem="dwf-JL-yb4" secondAttribute="centerX" id="XOr-QW-MGX"/>
+                            <constraint firstItem="ux1-bx-Oty" firstAttribute="centerY" secondItem="dwf-JL-yb4" secondAttribute="centerY" id="dbt-MN-9xc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="31H-U2-z9O"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gyw-XA-nMK"/>
+                    <connections>
+                        <outlet property="loader" destination="ux1-bx-Oty" id="5gm-SY-biv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ihh-KU-HOW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="22" y="282"/>
+        </scene>
+    </scenes>
+</document>

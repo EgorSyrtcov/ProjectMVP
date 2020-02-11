@@ -10,14 +10,29 @@ import UIKit
 
 class MainPresenter {
     
-    private weak var viewController: UINavigationController?
+    private weak var view: MainViewController!
     
-    init(viewController: UINavigationController) {
-        self.viewController = viewController
+    init(view: MainViewController) {
+        self.view = view
+    }
+    
+    func viewDidLoad() {
+        view.iconsModel = []
+    }
+    
+    func didSelectRowAt(indexPath: IndexPath) {
+        print("👾", indexPath.row)
     }
     
     func presentSecondVC() {
-        viewController?.pushViewController(CreateAssembly.createModule(), animated: true)
+        
+        let storyBoard = UIStoryboard(name: "CreateViewController", bundle: nil)
+        guard let viewController = storyBoard
+            .instantiateViewController(withIdentifier: "CreateViewController") as? CreateViewController else { return }
+        
+        viewController.presenter = CreatePresenter(view: viewController)
+        
+        view.navigationController?.pushViewController(viewController, animated: true)
     }
     
 }

@@ -10,14 +10,26 @@ import UIKit
 
 class CreatePresenter {
     
-    private weak var viewController: UIViewController?
+    private weak var view: CreateViewController!
     
-    init(viewController: UIViewController) {
-        self.viewController = viewController
+    init(view: CreateViewController) {
+        self.view = view
+    }
+    
+    func viewDidLoad() {
+        
     }
     
     func presentNextVC() {
-        viewController?.navigationController?.pushViewController(PickerAssembly.createModule(), animated: true)
+        view?.navigationController?.pushViewController(PickerAssembly.createModule(), animated: true)
+    }
+    
+    func createTask() {
+        let taskText = view.nameTaskTextView.text
+        let taskIcon = "imegename"
+        let task = Task(imageName: taskIcon, name: taskText)
+        
+        print("Task added", task.name?.isEmpty ?? false ? "Error" : task.name ?? "Error" )
     }
 }
 
