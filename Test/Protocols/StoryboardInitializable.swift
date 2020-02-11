@@ -24,7 +24,6 @@ extension StoryboardInitializable where Self: UIViewController {
             else {
                 fatalError("Could not instantiate initial view controller from \(storyboardName) storyboard.")
         }
-        
         return viewController
     }
     

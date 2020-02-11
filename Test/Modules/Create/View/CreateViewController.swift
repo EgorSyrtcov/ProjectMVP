@@ -13,13 +13,11 @@ protocol CreateViewControllerDelegate: class {
 }
 
 class CreateViewController: UIViewController {
-    
     var task: Task?
     var presenter: CreatePresenter!
 
     @IBOutlet weak var nameTaskTextView: UITextView!
     @IBOutlet weak var iconImageView: UIImageView!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,11 +25,8 @@ class CreateViewController: UIViewController {
 
     @IBAction func selectionIconButton(_ sender: UIButton) {
         presenter.presentNextVC()
-        
     }
-    
     @IBAction func saveButton(_ sender: UIButton) {
-        
     }
 }
 

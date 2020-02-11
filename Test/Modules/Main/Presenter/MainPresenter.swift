@@ -19,5 +19,4 @@ class MainPresenter {
     func presentSecondVC() {
         viewController?.pushViewController(CreateAssembly.createModule(), animated: true)
     }
-    
 }

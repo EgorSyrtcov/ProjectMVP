@@ -17,7 +17,6 @@ class CreatePresenter {
     }
     
     func presentNextVC() {
-        viewController?.navigationController?.pushViewController(PickerAssembly.createModule(delegate: self.viewController), animated: true)
+    viewController?.navigationController?.pushViewController(PickerAssembly.createModule(delegate: self.viewController), animated: true)
     }
 }
-

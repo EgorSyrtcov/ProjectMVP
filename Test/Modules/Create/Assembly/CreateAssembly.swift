@@ -9,13 +9,10 @@
 import UIKit
 
 class CreateAssembly {
-    
     class func createModule() -> CreateViewController {
-        
         let storyBoard = UIStoryboard(name: "CreateViewController", bundle: nil)
         let viewController = storyBoard.instantiateViewController(withIdentifier: "CreateViewController") as! CreateViewController
         viewController.presenter = CreatePresenter(viewController: viewController)
-        
         return viewController
     }
 }

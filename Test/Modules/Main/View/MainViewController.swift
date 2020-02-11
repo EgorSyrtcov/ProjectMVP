@@ -9,23 +9,20 @@
 import UIKit
 
 enum Properties: String {
-    case MainCellId = "MainCellId"
-    case PickIconCellId = "PickIconCellId"
+    case MainCellId
+    case PickIconCellId
 }
 
 class MainViewController: UIViewController {
-    
     var iconsModel: [Task]? = []
     var presenter: MainPresenter!
     @IBOutlet weak var tableView: UITableView!
-    
     @IBAction func addTaskButton(_ sender: UIBarButtonItem) {
         presenter.presentSecondVC()
     }
 }
 
 extension MainViewController: UITableViewDelegate, UITableViewDataSource {
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return iconsModel?.count ?? 0
     }

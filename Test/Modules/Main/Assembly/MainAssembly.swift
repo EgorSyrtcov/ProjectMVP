@@ -11,12 +11,10 @@ import UIKit
 class MainAssembly {
     
     class func createModule() -> UINavigationController {
-        
         let storyBoard = UIStoryboard(name: "MainViewController", bundle: nil)
-        let viewController = storyBoard.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
-        let navigationController = UINavigationController(rootViewController: viewController)
-        viewController.presenter = MainPresenter(viewController: navigationController)
-        
+        let mainvc = storyBoard.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
+        let navigationController = UINavigationController(rootViewController: mainvc)
+        mainvc.presenter = MainPresenter(viewController: navigationController)
         return navigationController
     }
 }
